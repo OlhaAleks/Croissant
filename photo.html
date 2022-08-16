@@ -1,16 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
     <link rel="stylesheet" href="/styles/app.css">
     <title>Photo</title>
 </head>
+
 <body>
     <h1>
         🥐A picture of a croissant
     </h1>
-    <img src="/images/croissant.jpg" alt="croissant">
+    <div class="d-flex justify-content-center p-3">
+        <div>
+            <a href="/" class="p-1 text-success fw-bold">Homepage</a>
+        </div>
+        <div>
+            <a href="/photo.html" class="p-1 text-success fw-bold">Photo</a>
+        </div>
+        <div>
+            <a href="/contact.html" class="p-1 text-success fw-bold">Contact</a>
+        </div>
+    </div>
+    <img src="/images/croissant.jpg" alt="croissant" class="figure-img img-fluid rounded">
 </body>
+
 </html>

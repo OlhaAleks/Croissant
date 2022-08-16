@@ -1,3 +1,18 @@
+body {
+    background: beige;
+}
 h1 {
     text-align: center;
+    margin: 30px;
+    font-weight: 700;
+    font-size: 54px;
+}
+p,
+a {
+    font-size: 16px;
+}
+p {
+    text-align: center;
+    margin: 20px;
+    padding: 30px;
 }
