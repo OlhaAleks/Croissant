@@ -1,9 +1,13 @@
 body {
     background: beige;
 }
-h1 {
+h1, 
+p {
+    margin: 20px;
     text-align: center;
-    margin: 30px;
+
+}
+h1 {
     font-weight: 700;
     font-size: 54px;
 }
@@ -12,7 +16,11 @@ a {
     font-size: 16px;
 }
 p {
-    text-align: center;
-    margin: 20px;
     padding: 30px;
+}
+.croissant-photo {
+  display: block;
+  margin: 5px auto;
+  max-width: 100%;
+  padding: 30px;
 }
